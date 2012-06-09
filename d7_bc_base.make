@@ -11,6 +11,13 @@ projects[] = drupal
 
 
 ; Modules
+
+;Custom modules (key based auth needed)
+projects[klaska_bc_customs][type] = theme
+projects[klaska_bc_customs][download][type] = git
+projects[klaska_bc_customs][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_customs.git"
+projects[klaska_bc_customs][subdir] = custom
+
 ; Specific versions and other unusual stuff
 projects[draggableviews][version] = 2.0-beta1
 projects[eva][version] = 1.1
