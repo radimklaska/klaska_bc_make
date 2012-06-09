@@ -20,58 +20,60 @@ projects[klaska_bc_customs][subdir] = custom
 
 ; Specific versions and other unusual stuff
 projects[draggableviews][version] = 2.0-beta1
+projects[draggableviews][subdir] = contrib
 projects[eva][version] = 1.1
+projects[eva][subdir] = contrib
 
 
 ; Common modules
-projects[] = admin_menu
-projects[] = advanced_help
-projects[] = auto_nodetitle
-projects[] = bundle_copy
-projects[] = colorbox
-projects[] = context
-projects[] = ctools
-projects[] = date
-projects[] = devel
-projects[] = entity
-projects[] = extlink
-projects[] = features
-projects[] = features_override
-projects[] = field_delimiter
-projects[] = field_extrawidgets
-projects[] = field_formatter_settings
-projects[] = field_group
-projects[] = field_injector
-projects[] = field_multiple_limit
-projects[] = field_permissions
-projects[] = filefield_paths
-projects[] = filefield_sources
-projects[] = flag
-projects[] = globalredirect
-projects[] = inline_entity_form
-projects[] = l10n_update
-projects[] = less
-projects[] = libraries
-projects[] = link
-projects[] = module_filter
-projects[] = nodereference_url
-projects[] = pathauto
-projects[] = references
-projects[] = resp_img
-projects[] = rules
-projects[] = stringoverrides
-projects[] = strongarm
-projects[] = token
-projects[] = transliteration
-projects[] = variable_clean
-projects[] = views
-projects[] = views_bulk_operations
+projects[admin_menu][subdir] = contrib
+projects[advanced_help][subdir] = contrib
+projects[auto_nodetitle][subdir] = contrib
+projects[bundle_copy][subdir] = contrib
+projects[colorbox][subdir] = contrib
+projects[context][subdir] = contrib
+projects[ctools][subdir] = contrib
+projects[date][subdir] = contrib
+projects[devel][subdir] = contrib
+projects[entity][subdir] = contrib
+projects[extlink][subdir] = contrib
+projects[features][subdir] = contrib
+projects[features_override][subdir] = contrib
+projects[field_delimiter][subdir] = contrib
+projects[field_extrawidgets][subdir] = contrib
+projects[field_formatter_settings][subdir] = contrib
+projects[field_group][subdir] = contrib
+projects[field_injector][subdir] = contrib
+projects[field_multiple_limit][subdir] = contrib
+projects[field_permissions][subdir] = contrib
+projects[filefield_paths][subdir] = contrib
+projects[filefield_sources][subdir] = contrib
+projects[flag][subdir] = contrib
+projects[globalredirect][subdir] = contrib
+projects[inline_entity_form][subdir] = contrib
+projects[l10n_update][subdir] = contrib
+projects[less][subdir] = contrib
+projects[libraries][subdir] = contrib
+projects[link][subdir] = contrib
+projects[module_filter][subdir] = contrib
+projects[nodereference_url][subdir] = contrib
+projects[pathauto][subdir] = contrib
+projects[references][subdir] = contrib
+projects[resp_img][subdir] = contrib
+projects[rules][subdir] = contrib
+projects[stringoverrides][subdir] = contrib
+projects[strongarm][subdir] = contrib
+projects[token][subdir] = contrib
+projects[transliteration][subdir] = contrib
+projects[variable_clean][subdir] = contrib
+projects[views][subdir] = contrib
+projects[views_bulk_operations][subdir] = contrib
 
 
 ; Omega theme and support modules
-projects[] = omega
-projects[] = delta
-projects[] = omega_tools
+projects[omega][subdir] = contrib
+projects[delta][subdir] = contrib
+projects[omega_tools][subdir] = contrib
 
 
 ; Libraries
