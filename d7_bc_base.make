@@ -13,7 +13,7 @@ projects[] = drupal
 ; Modules
 
 ;Custom modules (key based auth needed)
-projects[klaska_bc_customs][type] = theme
+projects[klaska_bc_customs][type] = module
 projects[klaska_bc_customs][download][type] = git
 projects[klaska_bc_customs][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_customs.git"
 projects[klaska_bc_customs][subdir] = custom
