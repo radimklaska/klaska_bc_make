@@ -30,6 +30,7 @@ projects[admin_menu][subdir] = contrib
 projects[advanced_help][subdir] = contrib
 projects[auto_nodetitle][subdir] = contrib
 projects[bundle_copy][subdir] = contrib
+projects[calendar][subdir] = contrib
 projects[colorbox][subdir] = contrib
 projects[context][subdir] = contrib
 projects[ctools][subdir] = contrib
