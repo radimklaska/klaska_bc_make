@@ -38,6 +38,7 @@ projects[ctools][subdir] = contrib
 projects[date][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[entity][subdir] = contrib
+projects[environment_indicator][subdir] = contrib
 projects[extlink][subdir] = contrib
 projects[features][subdir] = contrib
 projects[features_override][subdir] = contrib
