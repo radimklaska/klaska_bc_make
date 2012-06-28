@@ -1,7 +1,7 @@
-diff --git a/core/modules/field/field.api.php b/core/modules/field/field.api.php
+diff --git a/modules/field/field.api.php b/modules/field/field.api.php
 index 4b71248..a5a1166 100644
---- a/core/modules/field/field.api.php
-+++ b/core/modules/field/field.api.php
+--- a/modules/field/field.api.php
++++ b/modules/field/field.api.php
 @@ -274,6 +274,32 @@ function hook_field_schema($field) {
  }
  
@@ -35,10 +35,10 @@ index 4b71248..a5a1166 100644
   * Define custom load behavior for this module's field types.
   *
   * Unlike most other field hooks, this hook operates on multiple entities. The
-diff --git a/core/modules/field/field.crud.inc b/core/modules/field/field.crud.inc
+diff --git a/modules/field/field.crud.inc b/modules/field/field.crud.inc
 index ff39f22..347a15d 100644
---- a/core/modules/field/field.crud.inc
-+++ b/core/modules/field/field.crud.inc
+--- a/modules/field/field.crud.inc
++++ b/modules/field/field.crud.inc
 @@ -20,6 +20,24 @@
   */
  
@@ -105,10 +105,10 @@ index ff39f22..347a15d 100644
   */
  function field_create_instance($instance) {
    $field = field_read_field($instance['field_name']);
-diff --git a/core/modules/field/tests/field.test b/core/modules/field/tests/field.test
+diff --git a/modules/field/tests/field.test b/modules/field/tests/field.test
 index 214eab4..941cd16 100644
---- a/core/modules/field/tests/field.test
-+++ b/core/modules/field/tests/field.test
+--- a/modules/field/tests/field.test
++++ b/modules/field/tests/field.test
 @@ -2379,6 +2379,49 @@ class FieldCrudTestCase extends FieldTestCase {
    }
  }
@@ -159,11 +159,11 @@ index 214eab4..941cd16 100644
  class FieldInstanceCrudTestCase extends FieldTestCase {
    protected $field;
  
-diff --git a/core/modules/field/tests/field_test_schema_alter.info b/core/modules/field/tests/field_test_schema_alter.info
+diff --git a/modules/field/tests/field_test_schema_alter.info b/modules/field/tests/field_test_schema_alter.info
 new file mode 100644
 index 0000000..5b2ee0d
 --- /dev/null
-+++ b/core/modules/field/tests/field_test_schema_alter.info
++++ b/modules/field/tests/field_test_schema_alter.info
 @@ -0,0 +1,6 @@
 +name = "Field API Schema Alter Test"
 +description = "Support module for the Field API schema alter tests."
@@ -171,11 +171,11 @@ index 0000000..5b2ee0d
 +package = Testing
 +version = VERSION
 +hidden = TRUE
-diff --git a/core/modules/field/tests/field_test_schema_alter.module b/core/modules/field/tests/field_test_schema_alter.module
+diff --git a/modules/field/tests/field_test_schema_alter.module b/modules/field/tests/field_test_schema_alter.module
 new file mode 100644
 index 0000000..72a2a78
 --- /dev/null
-+++ b/core/modules/field/tests/field_test_schema_alter.module
++++ b/modules/field/tests/field_test_schema_alter.module
 @@ -0,0 +1,23 @@
 +<?php
 +
