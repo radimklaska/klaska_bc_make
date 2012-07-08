@@ -1,9 +1,9 @@
+; API version
+api = 2;
+
+
 ; Core version
 core = 7.x
-
-
-; API version
-api = 2
 
 
 ; Drupal 7.x core:
