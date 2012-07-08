@@ -98,6 +98,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[omega][subdir] = contrib
 projects[delta][subdir] = contrib
 projects[omega_tools][subdir] = contrib
+projects[navin][subdir] = contrib
 
 
 ; Libraries
