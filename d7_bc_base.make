@@ -1,14 +1,14 @@
+; API version
+api = 2;
+
+
 ; Core version
 core = 7.x
 
 
-; API version
-api = 2
-
-
 ; Drupal 7.x core:
 projects[drupal][type] = "core"
-projects[drupal][patch][] = "https://raw.github.com/radimklaska/klaska_bc_make/master/691932_44.D7.patch"
+; projects[drupal][patch][] = "https://raw.github.com/radimklaska/klaska_bc_make/master/691932_44.D7.patch"
 
 
 ; Modules
@@ -18,6 +18,27 @@ projects[klaska_bc_customs][type] = module
 projects[klaska_bc_customs][download][type] = git
 projects[klaska_bc_customs][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_customs.git"
 projects[klaska_bc_customs][subdir] = custom
+
+projects[klaska_bc_ttd][type] = module
+projects[klaska_bc_ttd][download][type] = git
+projects[klaska_bc_ttd][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_ttd.git"
+projects[klaska_bc_ttd][subdir] = custom
+
+projects[klaska_bc_ttd_bases][type] = module
+projects[klaska_bc_ttd_bases][download][type] = git
+projects[klaska_bc_ttd_bases][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_ttd_bases.git"
+projects[klaska_bc_ttd_bases][subdir] = custom
+
+projects[klaska_bc_usecase_basic][type] = module
+projects[klaska_bc_usecase_basic][download][type] = git
+projects[klaska_bc_usecase_basic][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_usecase_basic.git"
+projects[klaska_bc_usecase_basic][subdir] = custom
+
+projects[klaska_bc_theme][type] = theme
+projects[klaska_bc_theme][download][type] = git
+projects[klaska_bc_theme][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_theme.git"
+projects[klaska_bc_theme][subdir] = custom
+
 
 ; Specific versions and other unusual stuff
 projects[draggableviews][version] = 2.0-beta1
@@ -77,6 +98,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[omega][subdir] = contrib
 projects[delta][subdir] = contrib
 projects[omega_tools][subdir] = contrib
+projects[navin][subdir] = contrib
 
 
 ; Libraries
