@@ -8,7 +8,6 @@ core = 7.x
 
 ; Drupal 7.x core:
 projects[drupal][type] = "core"
-; projects[drupal][patch][] = "https://raw.github.com/radimklaska/klaska_bc_make/master/691932_44.D7.patch"
 
 
 ; Modules
