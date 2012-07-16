@@ -8,7 +8,6 @@ core = 7.x
 
 ; Drupal 7.x core:
 projects[drupal][type] = "core"
-; projects[drupal][patch][] = "https://raw.github.com/radimklaska/klaska_bc_make/master/691932_44.D7.patch"
 
 
 ; Modules
@@ -33,6 +32,11 @@ projects[klaska_bc_usecase_basic][type] = module
 projects[klaska_bc_usecase_basic][download][type] = git
 projects[klaska_bc_usecase_basic][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_usecase_basic.git"
 projects[klaska_bc_usecase_basic][subdir] = custom
+
+projects[klaska_bc_ttd_simple_brigde][type] = module
+projects[klaska_bc_ttd_simple_brigde][download][type] = git
+projects[klaska_bc_ttd_simple_brigde][download][url] = "git@bitbucket.org:radimklaska/klaska_bc_ttd_simple_brigde.git"
+projects[klaska_bc_ttd_simple_brigde][subdir] = custom
 
 projects[klaska_bc_theme][type] = theme
 projects[klaska_bc_theme][download][type] = git
